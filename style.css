@@ -1,0 +1,128 @@
+@font-face {
+    font-family: lovy;
+    src: url(Wasted-Vindey.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+
+#hero{
+    background-color: rgb(31, 36, 51);
+    height: 11em;
+    color: aliceblue;
+    font-family: lovy;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: 100;
+}
+
+p{
+    font-style: italic;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items:center;
+    text-align: center;
+    background-color: rgb(243, 232, 221);
+    gap: 15px;
+    height: 150px;
+    width: 70%;
+    margin: 20px auto;
+    border-radius: 12px;
+}
+
+#info{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(205, 229, 243);
+    gap: 15px;
+    width: 70%;
+    height: 200px;
+    margin: 20px auto;
+    border-radius: 12px;
+}
+
+.same{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(247, 241, 235);
+    width: 70%;
+    height: 20%;
+    border-radius: 12px;
+}
+
+#skills{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(238, 237, 182);
+    gap: 15px;
+    width: 70%;
+    height: 300px;
+    margin: 20px auto;
+    border-radius: 12px;
+}
+
+.same2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(247, 241, 235);
+    width: 50%;
+    height: 12%;
+    border-radius: 12px;
+}
+
+#PROJECT{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(199, 182, 238);
+    gap: 15px;
+    width: 70%;
+    height: 260px;
+    margin: 20px auto;
+    border-radius: 12px;
+}
+
+.same3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(247, 241, 235);
+    width: 60%;
+    height: 15%;
+    border-radius: 12px;
+}
